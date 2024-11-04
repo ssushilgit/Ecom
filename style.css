@@ -111,14 +111,15 @@ body {
     background: #088178;
 }
 
-.mobile{
+.mobile {
     display: none;
     align-items: center;
 }
 
-#close{
+#close {
     display: none;
 }
+
 /* Header ends */
 
 /* Hero section starts */
@@ -348,7 +349,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 570px;
+    min-width: 640px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -356,7 +357,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("img/banner/b10.jpg");
 }
 
 #sm-banner h4 {
@@ -421,7 +422,7 @@ body {
 }
 
 #banner3 .banner-box3 {
-    background-image: url("img/banner/b10.jpg");
+    background-image: url("img/banner/b18.jpg");
 }
 
 #banner3 h2 {
@@ -554,6 +555,10 @@ footer .copyright {
 
 /* Responsiveness */
 @media (max-width:799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
     #navbar {
         display: flex;
         flex-direction: column;
@@ -567,26 +572,29 @@ footer .copyright {
         background-color: #e3e6f3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
         padding: 80px 0 0 10px;
-        transition: 0.3s   ;
+        transition: 0.3s;
     }
 
-    #navbar.active{
+    #navbar.active {
         right: 0px;
     }
 
-    #navbar li{
+    #navbar li {
         margin-bottom: 30px;
     }
-    .mobile{
+
+    .mobile {
         display: flex;
         align-items: center;
         gap: 20px;
     }
-    .mobile i{
+
+    .mobile i {
         color: #1a1a1a;
         font-size: 24px;
     }
-    #close{
+
+    #close {
         display: initial;
         position: absolute;
         top: 20px;
@@ -594,8 +602,49 @@ footer .copyright {
         color: #222;
         font-size: 22px;
     }
-    #lg-bag{
+
+    #lg-bag {
         display: none;
     }
-   
+
+    #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+    #product1 .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 25vh;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner3 .banner-box {
+        width: 28%;
+        height: 25vh;
+    }
+    #newsletter .form {
+    
+        width: 70%;
+    }
 }
