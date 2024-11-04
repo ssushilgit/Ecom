@@ -349,7 +349,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 640px;
+    min-width: 48%;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -646,5 +646,63 @@ footer .copyright {
     #newsletter .form {
     
         width: 70%;
+    }
+}
+
+@media(max-width : 477px){
+    #header{
+        padding: 10px 30px;
+    }
+    .section-p1{
+        padding: 20px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    p{
+        font-size: 14px;
+    }
+    #hero {
+        background-position: 55%;
+        padding: 0 20px;
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box {
+        width: 150px;
+        margin: 0 0 15px 0;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner {
+        height: 30vh;
+    }
+    #sm-banner{
+        gap: 10px;
+    }
+    #sm-banner .banner-box {
+        height: 35vh; 
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+    #banner3 .banner-box {
+        height: 20vh;
+        width: 100%;
+    }
+    #newsletter{
+        padding: 40px 20px;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    footer .copyright{
+        text-align: start;
     }
 }
