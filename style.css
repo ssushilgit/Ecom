@@ -730,6 +730,25 @@ footer .copyright {
 
 /* Blog page ends */
 
+/* About page starts */
+#page-header.about-header {
+    background-image: url("img/about/banner.png");
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+/* About page ends */
+
 
 /* Responsiveness */
 @media (max-width:799px) {
